@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+## 概述：
 
-You can use the [editor on GitHub](https://github.com/wz7982/easysql.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+easysql是一个使用Kotlin语言编写的轻量级orm框架，使用接近于原生sql的dsl构建跨数据库的sql语句，无需xml配置，就能构造出复杂的查询。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+功能包括但不限于：增删改查，创建删除表和索引。
 
-### Markdown
+支持完整的对象映射，但也可以使用非对象映射方式构建sql，这一点与上文中的DDL构建功能共同为用户提供灵活的动态建表查询功能。
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+使用druid <https://github.com/alibaba/druid> 中的ast模块构建sql语法树，**在此感谢温绍锦先生和他的团队开发出了如此优秀的跨数据库sql parser。**
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wz7982/easysql.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+本项目托管在github网站上，网址为：<https://github.com/wz7982/easysql/>
